@@ -1,0 +1,28 @@
+{
+	"name": "nitpin",
+	"version": "0.1.0",
+	"description": "NNTP Client Library",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/skerit/nitpin.git"
+	},
+	"keywords": [
+		"nntp",
+		"usenet",
+		"newsgroups"
+	],
+	"dependencies": {
+		"protoblast": "0.1.x",
+		"fuery": "0.1.x"
+	},
+	"author": "Jelle De Loecker <jelle@kipdola.be>",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/skerit/nitpin/issues"
+	},
+	"homepage": "https://github.com/skerit/nitpin"
+}
