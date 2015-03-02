@@ -1,6 +1,6 @@
 {
 	"name": "nitpin",
-	"version": "0.1.0",
+	"version": "0.1.1-alpha",
 	"description": "NNTP Client Library",
 	"main": "index.js",
 	"scripts": {
@@ -17,6 +17,7 @@
 	],
 	"dependencies": {
 		"protoblast": "0.1.x",
+		"yencer": "0.1.x",
 		"fuery": "0.1.x"
 	},
 	"author": "Jelle De Loecker <jelle@kipdola.be>",
