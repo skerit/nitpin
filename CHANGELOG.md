@@ -1,3 +1,7 @@
+## 0.1.2 (WIP)
+
+* Added unit tests
+
 ## 0.1.1 (2015-03-02)
 
 * Fix: remove dot stuffing from server response
