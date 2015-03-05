@@ -1,6 +1,12 @@
-## 0.1.2 (WIP)
+## 0.1.2 (2015-03-05)
 
-* Added unit tests
+* Added first (basic) unit tests
+* Issued commands will no longer be spread randomly (but evenly) over the
+  workers, but will wait for a worker to announce himself as free.
+  This makes commands run in order more.
+* Fixed multiline responses not being ended properly.
+* Fix: Multiline chunk responses are no longer being kept in an array
+* More NZB support and some info on it in the README
 
 ## 0.1.1 (2015-03-02)
 

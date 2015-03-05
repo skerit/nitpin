@@ -92,6 +92,35 @@ server.getArticle('php.doc.nl', 'Pine.LNX.4.44.0206241454120.20549-100000@jdi.jd
 });
 ```
 
+### Get an NZB and stream the contents
+
+This is still in development and needs a lot more refining.
+
+```javascript
+// Parse an NZB: supply a path on this computer or a URL to download from
+server.parseNZB('/path/to/file.nzb', function parsed(err, nzb) {
+
+    // PAR files and RAR files are currently triaged into their own properties
+    // A stream can be created like this
+    nzb.rars.main.stream();
+
+    // The contents of the rar file can be streamed using `arcstream`
+    // (Which is not yet a dependency)
+    var ArcStream = require('arcstream');
+    var archive = new ArcStream();
+
+    archive.addFile(nzb.rars.main.stream(), 'rar');
+
+    for (var i = 0; i < nzb.rars.others.length; i++) {
+        archive.addFile(nzb.rars.others[i].stream(), 'rar');
+    }
+
+    archive.on('file', function(filename, stream, arcfile) {
+        console.log('FOUND FILE:', filename);
+    });
+});
+```
+
 ## License
 
 MIT

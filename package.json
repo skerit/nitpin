@@ -1,6 +1,6 @@
 {
 	"name": "nitpin",
-	"version": "0.1.2-alpha",
+	"version": "0.1.2",
 	"description": "NNTP Client Library",
 	"main": "index.js",
 	"scripts": {
