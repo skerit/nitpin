@@ -1,6 +1,6 @@
 {
 	"name": "nitpin",
-	"version": "0.1.2",
+	"version": "0.1.3",
 	"description": "NNTP Client Library",
 	"main": "index.js",
 	"scripts": {
@@ -20,7 +20,8 @@
 		"yencer": "0.1.x",
 		"mocha": "2.1.x",
 		"fuery": "0.1.x",
-		"xml2js": "0.4.x"
+		"xml2js": "0.4.x",
+		"mkdirp": "0.5.x"
 	},
 	"author": "Jelle De Loecker <jelle@kipdola.be>",
 	"license": "MIT",

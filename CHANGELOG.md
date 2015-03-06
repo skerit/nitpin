@@ -1,3 +1,10 @@
+## 0.1.3 (WIP)
+
+* Nitpin server command methods now return promise-like objects that can be
+  paused, resumed or cancelled.
+* Article bodies fetched during an NZB download will be cached
+* A `progress` event is emitted on NzbFile instances when a segment is done
+
 ## 0.1.2 (2015-03-05)
 
 * Added first (basic) unit tests
