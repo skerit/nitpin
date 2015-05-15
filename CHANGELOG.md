@@ -4,6 +4,9 @@
   paused, resumed or cancelled.
 * Article bodies fetched during an NZB download will be cached
 * A `progress` event is emitted on NzbFile instances when a segment is done
+* De-yencing an nzb file is now throttled, so the process isn't maxed out
+* Nzb-segments will now be processed through a FunctionQueue,
+  so they'll arive in order
 
 ## 0.1.2 (2015-03-05)
 
