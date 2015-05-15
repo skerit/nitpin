@@ -12,12 +12,13 @@ $ npm install nitpin
 
 * Handles multiple connections
 * Reaps idle connections after 30 seconds of inactivity
+* Download NZBs & yEnc decoding
+* PAR repairs (requires par2 installed on your system)
 
 ## Todo
 
 * Add support for more commands
 * Multi-server support
-* Possible NZB handling & yEnc decoding
 * ...
 
 ## Available command methods
@@ -117,6 +118,10 @@ server.parseNZB('/path/to/file.nzb', function parsed(err, nzb) {
 
     archive.on('file', function(filename, stream, arcfile) {
         console.log('FOUND FILE:', filename);
+
+        stream.on('end', function() {
+            console.log(filename, 'has finished streaming');
+        });
     });
 });
 ```

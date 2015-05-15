@@ -1,4 +1,4 @@
-## 0.1.3 (WIP)
+## 0.1.3 (2015-05-16)
 
 * Nitpin server command methods now return promise-like objects that can be
   paused, resumed or cancelled.
@@ -7,6 +7,7 @@
 * De-yencing an nzb file is now throttled, so the process isn't maxed out
 * Nzb-segments will now be processed through a FunctionQueue,
   so they'll arive in order
+* Added PAR repair support
 
 ## 0.1.2 (2015-03-05)
 
