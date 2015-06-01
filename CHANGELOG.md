@@ -1,3 +1,11 @@
+## 0.1.4 (WIP)
+
+* Bugfixes
+* Improve handling of missing articles during NZB download
+* Don't trust the subject wether the segment is yenced or not
+* Use `graceful-fs` package to work around EMFILE errors
+* Added more function names for debugging memory leaks
+
 ## 0.1.3 (2015-05-16)
 
 * Nitpin server command methods now return promise-like objects that can be
