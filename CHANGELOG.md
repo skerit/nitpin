@@ -5,6 +5,7 @@
 * Don't trust the subject wether the segment is yenced or not
 * Use `graceful-fs` package to work around EMFILE errors
 * Added more function names for debugging memory leaks
+* Use SlowBuffer instead of a regular Buffer
 
 ## 0.1.3 (2015-05-16)
 
