@@ -6,6 +6,7 @@
 * Use `graceful-fs` package to work around EMFILE errors
 * Added more function names for debugging memory leaks
 * Use SlowBuffer instead of a regular Buffer
+* Use `request` for getting NZB file
 
 ## 0.1.3 (2015-05-16)
 

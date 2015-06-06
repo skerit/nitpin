@@ -22,7 +22,8 @@
 		"fuery": "0.1.x",
 		"xml2js": "0.4.x",
 		"mkdirp": "0.5.x",
-		"graceful-fs": "3.0.x"
+		"graceful-fs": "3.0.x",
+		"request": "~2.57.0"
 	},
 	"author": "Jelle De Loecker <jelle@kipdola.be>",
 	"license": "MIT",
