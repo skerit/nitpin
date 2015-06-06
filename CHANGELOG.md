@@ -7,6 +7,7 @@
 * Added more function names for debugging memory leaks
 * Use SlowBuffer instead of a regular Buffer
 * Use `request` for getting NZB file
+* Accept gzip resonses when downloading the NZB file
 
 ## 0.1.3 (2015-05-16)
 
