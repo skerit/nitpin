@@ -8,6 +8,15 @@
 * Use SlowBuffer instead of a regular Buffer
 * Use `request` for getting NZB file
 * Accept gzip resonses when downloading the NZB file
+* `NzbDocument` now emits a `got_segment` event for each
+  successful segment download, and `missed_segment` for every miss
+* `NzbFile` segment objects now have a `from_cache` property
+* `NzbDocument` now emits a `par_progress` event
+* Add `yenc_throttle` to the Nitpin config (defaults to 50)
+* Use `par2repair` instead of `par2 r`, because the latter sometimes hangs
+  for no reason
+* Only rar groups with the highest number of files are used in NZB documents
+* Bugfix: caching downloaded segments won't leave any file descriptors open
 
 ## 0.1.3 (2015-05-16)
 
