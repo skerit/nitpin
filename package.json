@@ -1,6 +1,6 @@
 {
 	"name": "nitpin",
-	"version": "0.2.0",
+	"version": "0.2.1",
 	"description": "NNTP Client Library",
 	"main": "index.js",
 	"scripts": {
@@ -32,5 +32,6 @@
 	"bugs": {
 		"url": "https://github.com/skerit/nitpin/issues"
 	},
-	"homepage": "https://github.com/skerit/nitpin"
+	"homepage": "https://github.com/skerit/nitpin",
+	"private": true
 }
