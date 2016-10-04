@@ -1,4 +1,4 @@
-## 0.1.4 (WIP)
+## 0.2.0 (2016-10-04)
 
 * Bugfixes
 * Improve handling of missing articles during NZB download
@@ -17,6 +17,7 @@
   for no reason
 * Only rar groups with the highest number of files are used in NZB documents
 * Bugfix: caching downloaded segments won't leave any file descriptors open
+* Update for new Protoblast version
 
 ## 0.1.3 (2015-05-16)
 

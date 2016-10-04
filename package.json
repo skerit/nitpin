@@ -1,6 +1,6 @@
 {
 	"name": "nitpin",
-	"version": "0.1.4",
+	"version": "0.2.0",
 	"description": "NNTP Client Library",
 	"main": "index.js",
 	"scripts": {
@@ -16,16 +16,18 @@
 		"newsgroups"
 	],
 	"dependencies": {
-		"protoblast": "~0.1.9",
-		"yencer": "0.1.x",
-		"mocha": "2.1.x",
-		"xml2js": "0.4.x",
-		"mkdirp": "0.5.x",
+		"buffer-crc32": "~0.2.5",
 		"graceful-fs": "4.1.x",
+		"mkdirp": "0.5.x",
+		"protoblast": "~0.3.1",
 		"request": "~2.57.0",
-		"buffer-crc32": "~0.2.5"
+		"xml2js": "0.4.x",
+		"yencer": "~0.1.1"
 	},
-	"author": "Jelle De Loecker <jelle@kipdola.be>",
+	"devDependencies": {
+		"mocha": "2.1.x"
+	},
+	"author": "Jelle De Loecker <jelle@develry.be>",
 	"license": "MIT",
 	"bugs": {
 		"url": "https://github.com/skerit/nitpin/issues"
