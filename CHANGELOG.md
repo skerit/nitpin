@@ -1,5 +1,7 @@
 ## 0.2.1 (WIP)
 
+* Add `close` method to Nitpin class
+
 ## 0.2.0 (2016-10-04)
 
 * Bugfixes
